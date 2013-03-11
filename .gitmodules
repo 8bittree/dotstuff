@@ -1,0 +1,6 @@
+[submodule "meat_and_potatoes/vim-config"]
+	path = meat_and_potatoes/vim-config
+	url = https://github.com/8bittree/vim-config.git
+[submodule "meat_and_potatoes/zsh-config"]
+	path = meat_and_potatoes/zsh-config
+	url = https://github.com/8bittree/zsh-config.git

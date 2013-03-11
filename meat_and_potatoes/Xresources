@@ -1,0 +1,61 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!                                 Terminal                                 !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+*background: #2e2e2e
+*foreground: #d8d8d8
+
+! black
+*color0: #000000
+! bright_black
+*color8: #2e2e2e
+
+! red
+*color1: #f55fa0
+! bright_red
+*color9: #ff85ba
+
+! green
+*color2: #a0f55f
+! bright_green
+*color10: #baff85
+
+! yellow
+*color3: #f5b45f
+! bright_yellow
+*color11: #ffca85
+
+! blue
+*color4: #5fa0f5
+! bright_blue
+*color12: #85baff
+
+! magenta
+*color5: #b45ff5
+! bright_magenta
+*color13: #ca85ff
+
+! cyan
+*color6: #5ff5b4
+! bright_cyan
+*color14: #85ffca
+
+! white
+*color7: #d8d8d8
+! bright_white
+*color15: #ffffff
+
+!!!!!!!!!!!
+!  xterm  !
+!!!!!!!!!!!
+
+xterm*faceName:	DejaVuSansMono:size=8
+
+!!!!!!!!!!!
+!  URxvt  !
+!!!!!!!!!!!
+
+URxvt.font: xft:DejaVu Sans Mono:size=8
+URxvt.scrollBar: false
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
