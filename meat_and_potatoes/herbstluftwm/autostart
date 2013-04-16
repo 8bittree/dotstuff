@@ -22,18 +22,12 @@ hc keybind $Mod-Shift-c close
 hc keybind $Mod-Return spawn urxvt
 hc keybind $Mod-space spawn dmenu_run
 
-# tags
-TAG_NAMES=( {1..9} )
-TAG_KEYS=( {1..9} 0 )
-
-hc rename default "${TAG_NAMES[0]}" || true
-for i in ${!TAG_NAMES[@]} ; do
-    hc add "${TAG_NAMES[$i]}"
-    key="${TAG_KEYS[$i]}"
-    if ! [ -z "$key" ] ; then
-        hc keybind "$Mod-$key" use_index "$i"
-        hc keybind "$Mod-Shift-$key" move_index "$i"
-    fi
+# tags 0-9, each tag is referenced by the relevant keyboard key
+hc rename default "1" || true
+for t in {0..9} ; do
+    hc add "$t"
+	hc keybind "$Mod-$t" use "$t"
+	hc keybind "$Mod-Shift-$t" move "$t"
 done
 
 # cycle through tags
