@@ -1,0 +1,12 @@
+# No welcome message
+startup_message off
+
+# Biggish scrollback buffer
+defscrollback 5000
+
+# Prevents Vim, nano, less, etc from remaining in the buffer
+altscreen on
+
+# Status line at the bottom
+hardstatus alwayslastline
+hardstatus string '%{= kg} %-Lw%{= gk} %n%f %t %{-}%+Lw %-=%c '

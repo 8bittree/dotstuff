@@ -3,6 +3,7 @@
 typeset -A dotlinks
 dotlinks=( \
 	"$HOME/.config/herbstluftwm"	"$PWD/meat_and_potatoes/herbstluftwm" \
+	"$HOME/.screenrc"				"$PWD/meat_and_potatoes/screenrc" \
 	"$HOME/.vim"					"$PWD/meat_and_potatoes/vim-config" \
 	"$HOME/.vimrc"					"$HOME/.vim/vimrc" \
 	"$HOME/.Xresources"				"$PWD/meat_and_potatoes/Xresources" \
